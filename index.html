@@ -8,6 +8,49 @@
     <title>Sign Up Form Odin Project</title>
 </head>
 <body>
-    
+    <header>
+        <img id="bg-image" src="./Assets/photo-1585202900225-6d3ac20a6962.jpg" alt="Background-image">
+        <div id="bg-logo">
+            <img src="./Assets/odin-lined.png" alt="logo">
+            <h1>ODIN</h1>
+        </div>
+    </header>
+    <section id="form-section">
+        <form>
+            <fieldset>
+                <legend>Let's do this</legend>
+                
+                <div class="input-div">
+                <label for="first-name">*First Name</label>
+                <input type="text" id="first-name" placeholder="John" required>
+                </div>
+
+                <div class="input-div">
+                <label for="last-name">*Last Name</label>
+                <input type="text" id="last-name" placeholder="Doe" required>
+                </div>
+
+                <div class="input-div">
+                <label for="email">*Email</label>
+                <input type="email" id="email" placeholder="thor@odinson.com" required>
+                </div>
+
+                <div class="input-div">
+                <label for="phone-number">Phone Number</label>
+                <input type="number" id="phone-number" placeholder="+1 321 999 999">
+                </div>
+
+                <div class="input-div">
+                <label for="password">*Password</label>
+                <input type="text" id="password" placeholder="******" required>
+                </div>
+                <div class="input-div">
+                <label for="confirm-password">*Confirm Password</label>
+                <input type="text" id="confirm-password" placeholder="******" required>
+                </div>
+            </fieldset>
+            <button type="submit">Create Account</button>
+        </form>
+    </section>
 </body>
 </html>
